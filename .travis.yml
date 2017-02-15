@@ -4,9 +4,8 @@ references:
 
 os:
   - osx
-  language: generic
+  language: objective-c
   sudo: required
   dist: trusty
-  osx_image: xcode8
-  script:
-    carthage update --platform iOS
+  osx_image: xcode8.2
+  script: carthage update --platform iOS
