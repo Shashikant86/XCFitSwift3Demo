@@ -8,4 +8,5 @@ os:
   sudo: required
   dist: trusty
   osx_image: xcode8.2
-  script: carthage update --platform iOS
+  script:
+    - carthage update --platform iOS
