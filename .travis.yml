@@ -2,3 +2,4 @@ language: objective-c
 osx_image: xcode8.2
 script:
   - carthage update --platform iOS
+  - ls Carthage/Build/iOS/
