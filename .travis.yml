@@ -1,0 +1,12 @@
+references:
+# * http://www.objc.io/issue-6/travis-ci.html
+# * https://github.com/supermarin/xcpretty#usage
+
+os:
+  - osx
+  language: generic
+  sudo: required
+  dist: trusty
+  osx_image: xcode8
+  script:
+    carthage update --platform iOS
